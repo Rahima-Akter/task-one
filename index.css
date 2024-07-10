@@ -1,3 +1,5 @@
+/* nav style */
+
 nav>ul{
     display: flex;
     justify-content: space-between;
@@ -5,6 +7,7 @@ nav>ul{
     padding: 10px 110px;
 }
 ul>li, a{
+    color: black;
     list-style: none;
     text-decoration: none;
 }
@@ -15,6 +18,8 @@ ul>li, a{
 span{
     color: orange;
 }
+
+/* header section style */
 
 .hero-bg{
     height: 600px;
@@ -53,6 +58,9 @@ span{
 main{
     margin-top: 60px;
 }
+
+/* web section style */
+
 .web-section{
     background-color: #fafafb;
     width: 70%;
@@ -79,6 +87,9 @@ main{
     font-size: 20px;
     margin-bottom: 40px;
 }
+
+/* my inspiration section style */
+
 .my-inspiration{
     text-align: center;
     width: 80%;
@@ -88,3 +99,112 @@ main{
     border: 30px solid whitesmoke;
     border-radius: 20px;
 }
+
+/* my current target section style */
+
+.my-current-target{
+    text-align: center;
+}
+.target-section{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+.target-cards{
+    width: 25%;
+    height: 250px;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.target-cards> a{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+.target-tagline{
+    font-weight: 800;
+    font-size: 30px;
+}
+.target-description{
+    font-size: 20px;
+}
+.card-one{
+    background-color: #fffdf2;
+}
+.card-two{
+    background-color: #f2f6fe;
+}
+.card-three{
+    background-color: #fff6f3;
+}
+
+
+/* form section style */
+
+.form-section{
+    background-image: url('./assets/handshake.jpg');
+    text-align: center;
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 15px;
+    height: 250px;
+    padding-top: 20px;
+}
+.form-tagline{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+.form-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.form-section input[type="text"] {
+    border: none;
+    padding: 20px 120px;
+    font-weight: 500;
+    color: gray;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.form-section input[type="submit"]{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* footer style */
+
+footer{
+    background-color: #f7f8f8 ;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+}
+
+footer>p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-icons{
+    width: 15%;
+}
+.footer-icons>a>img{
+    margin-right: 18px;
+}
+
+
+

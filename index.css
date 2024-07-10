@@ -1,0 +1,90 @@
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 10px 110px;
+}
+ul>li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    font-weight: 800;
+    font-size: 35px;
+}
+span{
+    color: orange;
+}
+
+.hero-bg{
+    height: 600px;
+    width: 100%;
+    background-image: url(./assets/Hero-bg.png); 
+    background-position: center;
+}
+.hero-bg img{
+    width: 26%;
+    justify-content: center;
+}
+.hero-content{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+}
+.header-tagline{
+    font-weight: 800;
+    font-size: 50px;
+}
+.header-btn{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.header-description{
+    font-weight: 300;
+    margin: -15px 50px 40px 50px;
+    font-size: 18px;
+}
+
+main{
+    margin-top: 60px;
+}
+.web-section{
+    background-color: #fafafb;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 50px;
+    text-align: center;
+}
+.half-width{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #fffffff8;
+}
+.half-width-content{
+    width: 50%;
+}
+
+.half-width-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.half-width-description{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.my-inspiration{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto 0;
+}
+.Inspiration-section{
+    border: 30px solid whitesmoke;
+    border-radius: 20px;
+}
